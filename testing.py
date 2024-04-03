@@ -10,8 +10,8 @@ def sanitize_filename(filename):
     return sanitized_name
 
 # Specify the source and target directories
-source_directory = r'C:\Users\samyb\Desktop\Audio'
-target_directory = r'C:\Users\samyb\Desktop\Final'
+source_directory = 'path/to/source'
+target_directory = 'path/to/destination'
 
 # Ensure the target directory exists
 os.makedirs(target_directory, exist_ok=True)
